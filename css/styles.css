@@ -1,0 +1,37 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Courier, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+header {
+	text-align: right;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-right: 30px;
+	margin-right: 30px;
+}
+
+li {
+	display: inline;
+	padding-right: 10px;
+}
+
+header a {
+	padding: 2px;
+	font-weight: lighter;
+	text-transform: capitalize;
+	font-size: 13px;
+	text-decoration: none;
+	color: black;
+}
+
+#logo {
+	position: fixed;
+    top: 200px;
+    left: 550px;
+}
