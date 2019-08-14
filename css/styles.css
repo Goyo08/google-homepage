@@ -30,8 +30,18 @@ header a {
 	color: black;
 }
 
-#logo {
-	position: fixed;
-    top: 200px;
-    left: 550px;
+#main {
+	margin: 10% 25% 10% 25%;
+}
+
+.imagen {
+	position: absolute;
+	left: 40%;
+	top: 31%;
+}
+
+input[type=text] {
+	margin-top: 25%;
+	width: 100%;
+
 }
