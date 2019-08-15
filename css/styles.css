@@ -16,6 +16,15 @@ header {
 	margin-right: 30px;
 }
 
+footer {
+	background-color: #f2f2f2;
+	height: 35px;
+	width: 100%;
+	color: #222;
+	position: absolute;
+	padding-top: 30px;
+}
+
 li {
 	display: inline;
 	padding-right: 10px;
@@ -49,13 +58,24 @@ header a {
 }
 
 #search-bar input[type=button] {
-	position: absolute;
-	margin-top: 15%;
+	margin-top: 30%;
+	margin-left: 15%;
 	background-color: #f2f2f2;
-	border: 1px solid #f2f2f2;
 	color: #5F6368;
 	height: 36px;
+	width: 160px;
+	max-width: 160px;
 	font-family: arial, sans-serif;
 	font-family: 14px;
 	text-align: center;
+	border: 1px #f2f2f2;
+}
+
+#right-footer ul {
+	position: absolute;
+	left: 75%;
+}
+
+#left-footer ul {
+	position: absolute;
 }
